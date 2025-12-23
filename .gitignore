@@ -1,0 +1,39 @@
+# Java/Web/Android .gitignore
+
+# Build artifacts
+build/
+bin/
+target/
+out/
+*.class
+*.war
+*.ear
+*.jar
+
+# IDE settings
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.nb-gradle/
+
+# Android specific
+android_app/build/
+android_app/local.properties
+android_app/.gradle/
+android_app/captures/
+android_app/*.iml
+android_app/.externalNativeBuild/
+android_app/.cxx/
+android_app/google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
